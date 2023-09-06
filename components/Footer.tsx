@@ -4,7 +4,7 @@ import CustomButton from "./CustomButton"
 
 function Footer() {
   return (
-    <div className="flex justify-between mt-5 py-10 px-16">
+    <div className="sm:flex justify-between mt-5 py-10 px-16 sm:visible hidden">
      
       <div className="">             
         <Image src="/logo-belajargan.png" alt='Logo BelajarGan' width={200} height={70} className="object-contain" />

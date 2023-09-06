@@ -4,7 +4,7 @@ import Card from "./Card"
 function ListClass() {
   return (
     <div className=''>
-        <div className="gap-6 px-16 mt-44 py-1">
+        <div className="gap-6 sm:px-16 px-4 mt-44 py-1">
 
             <div className="">
                 <p className="text-Loyal-Green text-sm font-semibold">List Kelas</p>
@@ -13,7 +13,7 @@ function ListClass() {
 
             </div>
 
-            <div className="flex justify-center gap-14 my-20">
+            <div className="sm:flex justify-center gap-14 my-10">
 
            <Card />
            <Card />

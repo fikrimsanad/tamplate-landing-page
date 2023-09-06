@@ -3,11 +3,11 @@ import CustomButton from "./CustomButton"
 
 export default function About() {
   return (
-    <div className='flex px-16 mb-28 mt-28 '>
+    <div className='flex sm:px-16 px-4 mb-28 mt-28 '>
         
-           <div className="flex justify-start">
+           <div className="sm:flex justify-start">
                <div className="flex-1  pt-5">
-                <h1 className="text-Loyal-Green text-7xl font-bold">Meet Our <br/><span className="text-black">Friendly </span>Tutor</h1>
+                <h1 className="text-Loyal-Green sm:text-7xl text-5xl font-bold">Meet Our <br/><span className="text-black">Friendly </span>Tutor</h1>
                 <p className="text-gray-500 mt-10 mb-8 pr-10 text-lg"><span className="font-bold text-black text-xl">Rachmad Algani</span> people also know <span className="text-Loyal-Green text-xl font-semibold">Gani</span> is profesional who expert in digital marketing, he already work more than 15 years in digital marketing and work more than 5 big company. Now he want to sharing his experiance and knowledge to other people with <span className="text-Loyal-Green text-xl font-semibold">online class</span>. In his online class you will learn about growth your product with <span className="text-Loyal-Green text-xl font-semibold">digital marketing</span> process. </p>
                 <CustomButton title='Gabung Kelas !' btnType="button" containerStyles='rounded-full px-10 py-2 bg-Loyal-Green text-white font-bold min-w-[130px]' />
 

@@ -5,7 +5,7 @@ import CustomButton from './CustomButton'
 
 function Navbar() {
   return (
-    <header className='w-full z-10 px-16 '>
+    <header className='w-full z-10 px-16 sm:block hidden'>
         <nav className='max-w-[1440 px] pt-7 pb-14 mb-6 mx-auto'>
             <Link href="/" className='flex justify-between items-center '>
               <Image src="/Logo-belajargan.png" alt='Logo Cozytech' width={180} height={70} className="object-contain" />

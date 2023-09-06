@@ -3,11 +3,11 @@ import Image from "next/image"
 
 export default function page() {
   return (
-    <div className='px-16 mt-5 '>
+    <div className='sm:px-16 px-4 mt-5 '>
         
-      <div className="flex justify-start gap-2">
-          <div className="flex-1 pr-5">
-                 <div className="w-10/12 h-96 rounded-2xl bg-black"></div> 
+      <div className="sm:flex justify-start gap-2">
+          <div className="flex-1 sm:pr-5">
+                 <div className=" w-full sm:w-10/12 h-96 rounded-2xl bg-black"></div> 
                  <h1 className="mt-10 font-bold text-xl">About Class</h1>
                  <p className="text-gray-500 mt-5 mb-8 pr-10 text-lg">Rachmad Algani people also know Gani is profesional who expert in digital marketing, he already work more than 15 years in digital marketing and work more than 5 big company. Now he want to sharing his experiance and knowledge to other people with online class. In his online class you will learn about growth your product with digital marketing process. </p>
                  <h1 className="mt-10 font-bold text-xl">Mentor Profile</h1>

@@ -9,7 +9,7 @@ function listclass() {
         <div className="flex justify-center">
         </div>
 
-        <div className="flex justify-center gap-14 my-20">
+        <div className="sm:flex justify-center gap-14 my-10">
 
         
         <Card />
